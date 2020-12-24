@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="csdl_bansach@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="csdl_bansach">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bansach"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="performance_schema"/>
+    <schema id="7" parent="1" name="phpmyadmin"/>
+    <schema id="8" parent="1" name="test"/>
+    <schema id="9" parent="1" name="weblaptop"/>
+    <table id="10" parent="2" name="binhluan"/>
+    <table id="11" parent="2" name="chitiet_hd"/>
+    <table id="12" parent="2" name="danhmuc_sp"/>
+    <table id="13" parent="2" name="don_dh"/>
+    <table id="14" parent="2" name="gio_hang"/>
+    <table id="15" parent="2" name="nguoi_dung"/>
+    <table id="16" parent="2" name="nhanvien_gh"/>
+    <table id="17" parent="2" name="sanpham"/>
+    <table id="18" parent="2" name="sp_ban"/>
+    <table id="19" parent="2" name="tinhtrang"/>
+    <column id="20" parent="10" name="id_bl">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="21" parent="10" name="id_sp">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="10" name="ho_ten">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="10" name="ngay_gio">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="10" name="noi_dung">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="10" name="dien_thoai">
+      <Position>6</Position>
+      <DataType>varchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="26" parent="10" name="id_sp">
+      <ColNames>id_sp</ColNames>
+    </index>
+    <key id="27" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_bl</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="28" parent="11" name="id_hd">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="11" name="id_sp">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="11" name="so_luong">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="11" name="don_gia">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="11" name="hoten_kh">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="11" name="sdt">
+      <Position>6</Position>
+      <DataType>varchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="11" name="email">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="11" name="noi_nhan">
+      <Position>8</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="11" name="ghi_chu">
+      <Position>9</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="37" parent="11" name="id_sp">
+      <ColNames>id_sp</ColNames>
+    </index>
+    <key id="38" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_hd</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="39" parent="11" name="chitiet_hd_ibfk_2">
+      <ColNames>id_hd</ColNames>
+      <RefSchemaName>csdl_bansach</RefSchemaName>
+      <RefTableName>don_dh</RefTableName>
+      <RefColNames>id_hd</RefColNames>
+    </foreign-key>
+    <foreign-key id="40" parent="11" name="chitiet_hd_ibfk_1">
+      <ColNames>id_sp</ColNames>
+      <RefSchemaName>csdl_bansach</RefSchemaName>
+      <RefTableName>sanpham</RefTableName>
+      <RefColNames>id_sp</RefColNames>
+    </foreign-key>
+    <column id="41" parent="12" name="id_dm">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="42" parent="12" name="ten_dm">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="43" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_dm</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="44" parent="13" name="id_hd">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="45" parent="13" name="id_nd">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="13" name="id_nvgh">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="13" name="ngay_lap">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="13" name="tong_gia">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="49" parent="13" name="id_nd">
+      <ColNames>id_nd</ColNames>
+    </index>
+    <index id="50" parent="13" name="id_nvgh">
+      <ColNames>id_nvgh</ColNames>
+    </index>
+    <key id="51" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_hd</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="52" parent="13" name="don_dh_ibfk_1">
+      <ColNames>id_nd</ColNames>
+      <RefSchemaName>csdl_bansach</RefSchemaName>
+      <RefTableName>nguoi_dung</RefTableName>
+      <RefColNames>id_nd</RefColNames>
+    </foreign-key>
+    <foreign-key id="53" parent="13" name="don_dh_ibfk_2">
+      <ColNames>id_nvgh</ColNames>
+      <RefSchemaName>csdl_bansach</RefSchemaName>
+      <RefTableName>nhanvien_gh</RefTableName>
+      <RefColNames>id_nvgh</RefColNames>
+    </foreign-key>
+    <column id="54" parent="14" name="id_giohang">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="55" parent="14" name="id_nd">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="14" name="id_sp">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="14" name="so_luong">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="58" parent="14" name="id_nd">
+      <ColNames>id_nd</ColNames>
+    </index>
+    <index id="59" parent="14" name="id_sp">
+      <ColNames>id_sp</ColNames>
+    </index>
+    <key id="60" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_giohang</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="61" parent="14" name="gio_hang_ibfk_1">
+      <ColNames>id_nd</ColNames>
+      <RefSchemaName>csdl_bansach</RefSchemaName>
+      <RefTableName>nguoi_dung</RefTableName>
+      <RefColNames>id_nd</RefColNames>
+    </foreign-key>
+    <foreign-key id="62" parent="14" name="gio_hang_ibfk_2">
+      <ColNames>id_sp</ColNames>
+      <RefSchemaName>csdl_bansach</RefSchemaName>
+      <RefTableName>sanpham</RefTableName>
+      <RefColNames>id_sp</RefColNames>
+    </foreign-key>
+    <column id="63" parent="15" name="id_nd">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="64" parent="15" name="tai_khoan">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="15" name="mat_khau">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="15" name="sdt">
+      <Position>4</Position>
+      <DataType>varchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="15" name="email">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="15" name="dia_chi">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="69" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_nd</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="70" parent="16" name="id_nvgh">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="71" parent="16" name="ten_nvgh">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="16" name="sdt_1">
+      <Position>3</Position>
+      <DataType>varchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="16" name="sdt_2">
+      <Position>4</Position>
+      <DataType>varchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="74" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_nvgh</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="75" parent="17" name="id_sp">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="76" parent="17" name="id_dm">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="17" name="ten_sp">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="17" name="tac_gia">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="17" name="nxb">
+      <Position>5</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="17" name="anh_sp">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="17" name="anh_ct2">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="17" name="gia_sp">
+      <Position>8</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="17" name="so_luong">
+      <Position>9</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="17" name="ghi_chu">
+      <Position>10</Position>
+      <DataType>varchar(2000)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="85" parent="17" name="id_dm">
+      <ColNames>id_dm</ColNames>
+    </index>
+    <key id="86" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_sp</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="87" parent="17" name="sanpham_ibfk_1">
+      <ColNames>id_dm</ColNames>
+      <RefSchemaName>csdl_bansach</RefSchemaName>
+      <RefTableName>danhmuc_sp</RefTableName>
+      <RefColNames>id_dm</RefColNames>
+    </foreign-key>
+    <column id="88" parent="18" name="id_sp_ban">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="89" parent="18" name="id_sp">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="18" name="so_luong_ban">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="91" parent="18" name="id_sp">
+      <ColNames>id_sp</ColNames>
+    </index>
+    <key id="92" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_sp_ban</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="93" parent="19" name="id_tinh_trang">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="94" parent="19" name="tinh_trang">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="95" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_tinh_trang</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a783ba80-d5ee-40fa-86ae-14079c959de5" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="csdl_bansach@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="csdl_bansach@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="csdl_bansach" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="csdl_bansach@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="csdl_bansach" type="e3449647:DbNodeDescriptor" />
+        <item name="sanpham" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <marker date="1597113825299" expanded="true" signature="1404:1626" ph="..." />
+                <marker date="1597113825299" expanded="true" signature="1517:1565" ph="..." />
+                <marker date="1597113825299" expanded="true" signature="2119:2182" ph="select * fro... danhmuc_sp" />
+                <marker date="1597113825299" expanded="true" signature="3348:3372" ph="select * fro... danhmuc_sp" />
+                <marker date="1597113825299" expanded="true" signature="3605:3719" ph="select * fro... sanpham" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tatcasach.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tatcasach.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="132" column="49" lean-forward="true" selection-start-line="132" selection-start-column="49" selection-end-line="132" selection-end-column="49" />
+              <folding>
+                <marker date="1597115121508" expanded="true" signature="1339:1553" ph="..." />
+                <marker date="1597115121508" expanded="true" signature="1452:1500" ph="..." />
+                <marker date="1597115121508" expanded="true" signature="2175:2196" ph="select * fro... sanpham" />
+                <marker date="1597115121508" expanded="true" signature="2175:2216" ph="select * fro... sanpham" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gia.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gia.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding>
+                <marker date="1597113657822" expanded="true" signature="12:75" ph="select * fro... danhmuc_sp" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2436">
+              <caret line="116" column="97" lean-forward="false" selection-start-line="116" selection-start-column="97" selection-end-line="116" selection-end-column="97" />
+              <folding>
+                <marker date="1597044944604" expanded="true" signature="1408:1630" ph="..." />
+                <marker date="1597044944604" expanded="true" signature="1521:1569" ph="..." />
+                <marker date="1597044944604" expanded="true" signature="2122:2185" ph="select * fro... danhmuc_sp" />
+                <marker date="1597044944604" expanded="true" signature="3634:3685" ph="select * fro... sanpham" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3444">
+              <caret line="164" column="6" lean-forward="false" selection-start-line="164" selection-start-column="6" selection-end-line="164" selection-end-column="6" />
+              <folding>
+                <element signature="e#7863#7868#0#PHP" expanded="false" />
+                <marker date="1597073417360" expanded="true" signature="1693:1919" ph="..." />
+                <marker date="1597073417360" expanded="true" signature="1806:1854" ph="..." />
+                <marker date="1597073417360" expanded="true" signature="3131:3390" ph="select id_gi... gio_hang" />
+                <marker date="1597073417360" expanded="true" signature="4630:4655" ph="select * fro... nhanvien_gh" />
+                <marker date="1597073417360" expanded="true" signature="8243:8369" ph="insert into don_dh... " />
+                <marker date="1597073417360" expanded="true" signature="8541:8763" ph="insert into chitiet_hd... " />
+                <marker date="1597073417360" expanded="true" signature="8541:8764" ph="insert into chitiet_hd... " />
+                <marker date="1597073417360" expanded="true" signature="8945:9049" ph="update sanph... " />
+                <marker date="1597073417360" expanded="true" signature="9199:9239" ph="delete from " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>book1</find>
+      <find>span</find>
+      <find>product-image</find>
+      <find>book</find>
+      <find>anh</find>
+      <find>info</find>
+      <find>.i</find>
+      <find>$idsp</find>
+      <find>ghichu</find>
+      <find>js</find>
+      <find>function</find>
+      <find>sluong</find>
+      <find>pic</find>
+      <find>$conn</find>
+      <find>ID</find>
+      <find>$query</find>
+      <find>mysqli_fetch_array</find>
+      <find>sp</find>
+      <find>ban</find>
+      <find>ba</find>
+      <find>banner</find>
+      <find>lyta</find>
+      <find>fun</find>
+      <find>func</find>
+      <find>-</find>
+      <find>90</find>
+      <find>search</find>
+      <find>đặt</find>
+      <find>mua</find>
+      <find>giá</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b93ecd0f-b4fb-4073-b24b-a9bf63b06155/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e0c21302-ff9d-4550-a6c6-dec1e63f257e/console.sql" />
+        <option value="$PROJECT_DIR$/Logout.php" />
+        <option value="$PROJECT_DIR$/connect.php" />
+        <option value="$PROJECT_DIR$/admin/IndexAdmin.php" />
+        <option value="$PROJECT_DIR$/Login.php" />
+        <option value="$PROJECT_DIR$/admin/DS_DanhMuc.php" />
+        <option value="$PROJECT_DIR$/admin/Sua_DanhMuc.php" />
+        <option value="$USER_HOME$/Downloads/Compressed/7-4-2019/Divine/dangnhap.html" />
+        <option value="$PROJECT_DIR$/dk.html" />
+        <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/public/CSS/sanpham.css" />
+        <option value="$PROJECT_DIR$/public/CSS/style2a.css" />
+        <option value="G:/Web_LapTop/public/CSS/style2.css" />
+        <option value="$USER_HOME$/Downloads/Compressed/thuc-tap-code-gym-master/BK_online.html" />
+        <option value="$PROJECT_DIR$/sdsadsadasđ.php" />
+        <option value="$PROJECT_DIR$/public/CSS/index.css" />
+        <option value="$PROJECT_DIR$/1.php" />
+        <option value="$PROJECT_DIR$/public/CSS/style2.css" />
+        <option value="$PROJECT_DIR$/public/CSS/2.css" />
+        <option value="$PROJECT_DIR$/admin/ds_sp.php" />
+        <option value="$PROJECT_DIR$/admin/ds_danhmuc.php" />
+        <option value="$PROJECT_DIR$/admin/sua_sanpham.php" />
+        <option value="$PROJECT_DIR$/admin/them_sp.php" />
+        <option value="$PROJECT_DIR$/public/CSS/sanpham1.css" />
+        <option value="$PROJECT_DIR$/admin/indexadmin.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/gioithieu.php" />
+        <option value="$PROJECT_DIR$/admin/ds_donhang.php" />
+        <option value="$PROJECT_DIR$/admin/them_danhmuc.php" />
+        <option value="$PROJECT_DIR$/sanpham.php" />
+        <option value="$PROJECT_DIR$/admin/xoa_nguoidung.php" />
+        <option value="$PROJECT_DIR$/admin/xoa_donhang.php" />
+        <option value="$PROJECT_DIR$/admin/sua_nguoidung.php" />
+        <option value="$PROJECT_DIR$/admin/style11.css" />
+        <option value="$PROJECT_DIR$/admin/sua_danhmuc.php" />
+        <option value="$PROJECT_DIR$/csdl_bansach.sql" />
+        <option value="$PROJECT_DIR$/ls_muahang.php" />
+        <option value="$PROJECT_DIR$/search.php" />
+        <option value="$PROJECT_DIR$/public/CSS/style1.css" />
+        <option value="$PROJECT_DIR$/cart.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5ddb84af-37d4-4856-bdac-d13df1b6cd30/console.sql" />
+        <option value="$PROJECT_DIR$/order.php" />
+        <option value="$PROJECT_DIR$/order_detail.php" />
+        <option value="$PROJECT_DIR$/admin/chitiet_donhang.php" />
+        <option value="$PROJECT_DIR$/public/CSS/1.css" />
+        <option value="$PROJECT_DIR$/gia.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/xemthem_sp.php" />
+        <option value="$PROJECT_DIR$/tatcasach.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="14" />
+    <option name="width" value="893" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WEB_BanSach" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB_BanSach" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="WEB_BanSach" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB_BanSach" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="WEB_BanSach" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB_BanSach" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="WEB_BanSach" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB_BanSach" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CSS" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webbansach" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="MySQL&#10;GenericSQL" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\WEB_BanSach\public\CSS" />
+      <recent name="C:\Users\buitr\.PhpStorm2017.2\config\consoles\db\b93ecd0f-b4fb-4073-b24b-a9bf63b06155" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a783ba80-d5ee-40fa-86ae-14079c959de5" name="Default" comment="" />
+      <created>1594631741413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594631741413</updated>
+      <workItem from="1594631743569" duration="2010000" />
+      <workItem from="1594711852765" duration="7776000" />
+      <workItem from="1594796452831" duration="3000" />
+      <workItem from="1594881626974" duration="3729000" />
+      <workItem from="1595229430746" duration="1850000" />
+      <workItem from="1595402335488" duration="6080000" />
+      <workItem from="1595830634034" duration="5220000" />
+      <workItem from="1595843936153" duration="238000" />
+      <workItem from="1595844577378" duration="4757000" />
+      <workItem from="1595904330660" duration="6557000" />
+      <workItem from="1595927573837" duration="8856000" />
+      <workItem from="1595989854735" duration="6980000" />
+      <workItem from="1596355204908" duration="788000" />
+      <workItem from="1596438553164" duration="9457000" />
+      <workItem from="1596474996364" duration="692000" />
+      <workItem from="1596523333572" duration="26000" />
+      <workItem from="1596523518740" duration="5788000" />
+      <workItem from="1596536769415" duration="1939000" />
+      <workItem from="1596552743933" duration="1060000" />
+      <workItem from="1596610034212" duration="761000" />
+      <workItem from="1596625772323" duration="265000" />
+      <workItem from="1596693123192" duration="701000" />
+      <workItem from="1596698354790" duration="731000" />
+      <workItem from="1596729361621" duration="491000" />
+      <workItem from="1597031025580" duration="665000" />
+      <workItem from="1597035343224" duration="5422000" />
+      <workItem from="1597044611492" duration="1760000" />
+      <workItem from="1597052131370" duration="918000" />
+      <workItem from="1597065151051" duration="5904000" />
+      <workItem from="1597108242253" duration="6605000" />
+      <workItem from="1597138196180" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="98061000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19495167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17239527" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52380955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19010417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1921875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../webbansach/theloai.php</url>
+          <line>85</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>106</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="23" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin/xoa_sp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1583069064000" expanded="true" signature="64:103" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freeship.php" />
+    <entry file="file://$PROJECT_DIR$/doitra7ngay.php" />
+    <entry file="file://$PROJECT_DIR$/1.php" />
+    <entry file="file://$PROJECT_DIR$/admin/sua_sanpham.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+          <folding>
+            <marker date="1595998607757" expanded="true" signature="1392:1663" ph="update sanph... " />
+            <marker date="1595998607757" expanded="true" signature="2531:2742" ph="..." />
+            <marker date="1595998607757" expanded="false" signature="2658:2689" ph="..." />
+            <marker date="1595998607757" expanded="true" signature="2658:2742" ph="..." />
+            <marker date="1595998607757" expanded="true" signature="3290:3332" ph="SELECT * FRO... sanpham" />
+            <marker date="1595998607757" expanded="true" signature="4548:4572" ph="select * fro... danhmuc_sp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/indexadmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1596440726406" expanded="true" signature="1142:1353" ph="..." />
+            <marker date="1596440726406" expanded="false" signature="1255:1300" ph="..." />
+            <marker date="1596440726406" expanded="true" signature="2246:2286" ph="SELECT * FRO... nguoi_dung" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../webbansach/theloai.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="97" column="29" lean-forward="false" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+          <folding>
+            <marker date="1554917538000" expanded="true" signature="806:819" ph="..." />
+            <marker date="1554917538000" expanded="true" signature="886:922" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/CSS/sanpham1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4158">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/CSS/style2.css" />
+    <entry file="file://$PROJECT_DIR$/public/JS/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/JS/js1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/xoa_danhmuc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <marker date="1583069198000" expanded="true" signature="64:106" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/them_sp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <marker date="1595999038600" expanded="true" signature="1342:1597" ph="insert into sanpham... " />
+            <marker date="1595999038600" expanded="true" signature="2469:2683" ph="..." />
+            <marker date="1595999038600" expanded="false" signature="2599:2630" ph="..." />
+            <marker date="1595999038600" expanded="true" signature="2599:2683" ph="..." />
+            <marker date="1595999038600" expanded="true" signature="4335:4359" ph="select * fro... danhmuc_sp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/them_danhmuc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <marker date="1596528219702" expanded="true" signature="765:811" ph="insert into danhmuc_sp... " />
+            <marker date="1596528219702" expanded="true" signature="1570:1784" ph="..." />
+            <marker date="1596528219702" expanded="false" signature="1683:1731" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/77dc65bf/5ddb84af-37d4-4856-bdac-d13df1b6cd30/csdl_bansach.nguoi_dung">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/77dc65bf/5ddb84af-37d4-4856-bdac-d13df1b6cd30/csdl_bansach.danhmuc_sp">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/xoa_donhang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding>
+            <marker date="1596538374906" expanded="true" signature="67:105" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/xoa_nguoidung.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="52" />
+          <folding>
+            <marker date="1596537278274" expanded="true" signature="68:110" ph="delete from " />
+            <marker date="1596537278274" expanded="true" signature="258:300" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/style11.css" />
+    <entry file="file://$PROJECT_DIR$/admin/sua_nguoidung.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="115" column="47" lean-forward="false" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/sua_danhmuc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <marker date="1596610307958" expanded="true" signature="1177:1391" ph="..." />
+            <marker date="1596610307958" expanded="false" signature="1290:1338" ph="..." />
+            <marker date="1596610307958" expanded="true" signature="1966:2010" ph="select * fro... danhmuc_sp" />
+            <marker date="1596610307958" expanded="true" signature="2945:3002" ph="update danhm... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/77dc65bf/5ddb84af-37d4-4856-bdac-d13df1b6cd30/csdl_bansach.binhluan">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fashion/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/77dc65bf/5ddb84af-37d4-4856-bdac-d13df1b6cd30/csdl_bansach.sanpham">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/77dc65bf/5ddb84af-37d4-4856-bdac-d13df1b6cd30/csdl_bansach.don_dh">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csdl_bansach.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="196" column="35" lean-forward="false" selection-start-line="196" selection-start-column="35" selection-end-line="196" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/ds_donhang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="84" column="20" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="84" selection-end-column="20" />
+          <folding>
+            <marker date="1596525252303" expanded="true" signature="1147:1247" ph="..." />
+            <marker date="1596525252303" expanded="true" signature="1147:1279" ph="..." />
+            <marker date="1596525252303" expanded="true" signature="2112:2181" ph="select * fro... don_dh" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ls_muahang.php" />
+    <entry file="file://$PROJECT_DIR$/public/CSS/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="286" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/CSS/2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="3" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xoacart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <marker date="1582921408000" expanded="true" signature="170:371" ph="insert into chitiet_hd... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-477">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gioithieu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="135" column="83" lean-forward="false" selection-start-line="135" selection-start-column="83" selection-end-line="135" selection-end-column="83" />
+          <folding>
+            <marker date="1596450724311" expanded="true" signature="1542:1764" ph="..." />
+            <marker date="1596450724311" expanded="true" signature="1655:1703" ph="..." />
+            <marker date="1596450724311" expanded="true" signature="2256:2319" ph="select * fro... danhmuc_sp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="101" column="42" lean-forward="true" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+          <folding>
+            <marker date="1596440819431" expanded="true" signature="2731:2807" ph="select * fro... nguoi_dung" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5ddb84af-37d4-4856-bdac-d13df1b6cd30/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1932">
+          <caret line="92" column="30" lean-forward="false" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="90" column="3" lean-forward="false" selection-start-line="90" selection-start-column="3" selection-end-line="126" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/chitiet_donhang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="69" column="50" lean-forward="false" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+          <folding>
+            <marker date="1597076400916" expanded="true" signature="1145:1356" ph="..." />
+            <marker date="1597076400916" expanded="true" signature="1258:1303" ph="..." />
+            <marker date="1597076400916" expanded="true" signature="2419:2584" ph="SELECT *, ch... chitiet_hd" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/ds_danhmuc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <marker date="1595992800746" expanded="true" signature="1147:1361" ph="..." />
+            <marker date="1595992800746" expanded="false" signature="1260:1308" ph="..." />
+            <marker date="1595992800746" expanded="true" signature="2226:2250" ph="select * fro... danhmuc_sp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/ds_sp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="34" column="38" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="115" selection-end-column="42" />
+          <folding>
+            <marker date="1595992779561" expanded="true" signature="1287:1505" ph="..." />
+            <marker date="1595992779561" expanded="false" signature="1400:1448" ph="..." />
+            <marker date="1595992779561" expanded="true" signature="2643:2664" ph="select * fro... sanpham" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sanpham.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="177" column="78" lean-forward="false" selection-start-line="177" selection-start-column="78" selection-end-line="177" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/CSS/1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="290" column="7" lean-forward="false" selection-start-line="290" selection-start-column="7" selection-end-line="290" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <marker date="1597113657822" expanded="true" signature="12:75" ph="select * fro... danhmuc_sp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2436">
+          <caret line="116" column="97" lean-forward="false" selection-start-line="116" selection-start-column="97" selection-end-line="116" selection-end-column="97" />
+          <folding>
+            <marker date="1597044944604" expanded="true" signature="1408:1630" ph="..." />
+            <marker date="1597044944604" expanded="true" signature="1521:1569" ph="..." />
+            <marker date="1597044944604" expanded="true" signature="2122:2185" ph="select * fro... danhmuc_sp" />
+            <marker date="1597044944604" expanded="true" signature="3634:3685" ph="select * fro... sanpham" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3444">
+          <caret line="164" column="6" lean-forward="false" selection-start-line="164" selection-start-column="6" selection-end-line="164" selection-end-column="6" />
+          <folding>
+            <element signature="e#7863#7868#0#PHP" expanded="false" />
+            <marker date="1597073417360" expanded="true" signature="1693:1919" ph="..." />
+            <marker date="1597073417360" expanded="true" signature="1806:1854" ph="..." />
+            <marker date="1597073417360" expanded="true" signature="3131:3390" ph="select id_gi... gio_hang" />
+            <marker date="1597073417360" expanded="true" signature="4630:4655" ph="select * fro... nhanvien_gh" />
+            <marker date="1597073417360" expanded="true" signature="8243:8369" ph="insert into don_dh... " />
+            <marker date="1597073417360" expanded="true" signature="8541:8763" ph="insert into chitiet_hd... " />
+            <marker date="1597073417360" expanded="true" signature="8541:8764" ph="insert into chitiet_hd... " />
+            <marker date="1597073417360" expanded="true" signature="8945:9049" ph="update sanph... " />
+            <marker date="1597073417360" expanded="true" signature="9199:9239" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xemthem_sp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="147" column="30" lean-forward="false" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <marker date="1597113825299" expanded="true" signature="1404:1626" ph="..." />
+            <marker date="1597113825299" expanded="true" signature="1517:1565" ph="..." />
+            <marker date="1597113825299" expanded="true" signature="2119:2182" ph="select * fro... danhmuc_sp" />
+            <marker date="1597113825299" expanded="true" signature="3348:3372" ph="select * fro... danhmuc_sp" />
+            <marker date="1597113825299" expanded="true" signature="3605:3719" ph="select * fro... sanpham" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tatcasach.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="132" column="49" lean-forward="true" selection-start-line="132" selection-start-column="49" selection-end-line="132" selection-end-column="49" />
+          <folding>
+            <marker date="1597115121508" expanded="true" signature="1339:1553" ph="..." />
+            <marker date="1597115121508" expanded="true" signature="1452:1500" ph="..." />
+            <marker date="1597115121508" expanded="true" signature="2175:2196" ph="select * fro... sanpham" />
+            <marker date="1597115121508" expanded="true" signature="2175:2216" ph="select * fro... sanpham" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
